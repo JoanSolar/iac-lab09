@@ -2,7 +2,7 @@ name: saludo
 
 on:
   push:
-    branches: [ main ]
+    branches:
     -main
     -develop
 
