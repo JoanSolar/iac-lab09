@@ -1,0 +1,17 @@
+name: saludo
+
+on:
+  push:
+    branches: [ main ]
+    -main
+    -develop
+
+  jobs:
+    saludo:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Saludo desde main
+          run: echo "Hola desde main, soy Joan Solar"
+
+        - name: Saludo desde main
+          run: echo "Hola desde main, soy Joan Solar"
