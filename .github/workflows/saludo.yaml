@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Saludo desde main
-        run: echo "Hola desde main, mi nombre es Joan Solar"
+        run: echo "Hola desde main, mi nombre es $MI_NOMBREr"
 
       - name: Saludo desde develop
-        run: echo "Hola desde develop, mi nombre es Joan Solar"
+        run: echo "Hola desde develop, mi nombre es $MI_NOMBRE"
